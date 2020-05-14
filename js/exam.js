@@ -32,5 +32,37 @@ console.log(h)
 var temh1 = h.parentNode.nodeName;
 console.log(temh1) /*output=>DIV */
 
-var currentElem = document.getElementById("next-inner");
-currentElem.parentNode.style.display = "none";
+// var currentElem = document.getElementById("next-inner");
+// currentElem.parentNode.style.display = "none";
+
+var p22 = document.getElementById("p22");
+p22.innerHTML = 'oahdf;a' 
+
+
+function getParent() {
+      console.log("This is a function")
+    }
+
+var p23 = document.getElementById("p23");
+console.log(p23) 
+p23.textContent = "yyyyyyyyyyyyyyy"
+console.log(p23) 
+
+
+var sp1 = document.createElement("div");
+
+
+
+
+var sp2 = document.getElementById("p23");
+
+//Получаем ссылку на родителя sp2
+var parentDiv = sp2.parentNode;
+
+// Вставляем sp1 перед sp2
+parentDiv.insertBefore(sp1, sp2);
+
+var sp12 = document.getElementsByTagName("div")[0];
+console.log(sp12) 
+
+sp12.setAttribute("class", "p45");
