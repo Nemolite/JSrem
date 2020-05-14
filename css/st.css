@@ -1,0 +1,6 @@
+.block {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+    background-color: #2d2d2d;
+}
