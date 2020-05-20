@@ -66,3 +66,18 @@ var sp12 = document.getElementsByTagName("div")[0];
 console.log(sp12) 
 
 sp12.setAttribute("class", "p45");
+
+/*события*/
+
+
+window.onload  =function(){
+	console.log(222)
+}
+
+/* <button id="mybutton">Щелкни
+на мне</button>*/
+
+var b = document.getElementById("mybutton");
+b.onclick = function() { alert("Спасибо,что щелкнули на мне!"); };
+b.addEventListener("click", function() { alert("Еще раз спасибо!");
+}, false);
