@@ -68,10 +68,14 @@ console.log(sp12)
 sp12.setAttribute("class", "p45");
 
 /*события*/
-
+f1 = function(){
+	console.log(222) 
+    }
 
 window.onload  =function(){
-	console.log(222)
+
+	setTimeout(f1, 2000);
+    
 }
 
 /* <button id="mybutton">Щелкни

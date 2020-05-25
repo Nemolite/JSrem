@@ -1,8 +1,7 @@
 .block {
 	width: 300px;
 	height: 300px;
-	position: absolute;
-    background-color: #2d2d2d;
+	background-color: #2d2d2d;
 }
 
 .inner {
@@ -26,4 +25,8 @@
 	width: 100px;
 	height: 100px;
 	border:1px solid red;
+}
+
+.btn3 {
+	color: red;
 }
